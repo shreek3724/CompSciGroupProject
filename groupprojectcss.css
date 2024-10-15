@@ -1,0 +1,51 @@
+/*
+requirements:
+text color DONE
+margins DONE
+padding DONE
+border formatting DONE
+background colors DONE
+all for the header, body, and footer
+other per section things
+*/
+
+header{
+background-color: #21897E;
+color: #2F2504;
+border-width: 10px;
+border-color: #21897E;
+border-radius: 30;
+width: 300px;
+height: 100px;
+padding: 10px;
+margin: 50px;
+display: inline-block;
+text-align: center;
+}
+
+body{
+    background-color: #CEFDFF;
+    color: #2F2504;
+    border-width: 10px;
+    border-color: #CEFDFF;
+border-radius: 30;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+}
+
+footer{
+    background-color: #2F2504;
+    color: #CEFDFF;
+    border-color: #2F2504;
+border-radius: 30;
+    width: 300px;
+    border-width: 10px;
+height: 50px;
+padding: 10px;
+margin: 50px;
+text-align: center;
+}
+
