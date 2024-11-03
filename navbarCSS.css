@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #594E36;
+}
+
+.navbar-heading{
+    text-align: center;
+    font-size: 60px;
+    background-color: #2F2504;
+    border-radius:40px;
+    color: white
+}
+
+nav ul li{
+    width: 120px;
+    height: 15px;
+    background-color: pink;
+    /* ^^ applies the design changes to the items in the nav bar list*/
+    list-style: none; /*gets rid of the dots*/
+    /*gets the items to be side by side instead of in a line: */
+    display: inline-block;
+    margin: 40px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #2F2504;
+}
+
+nav ul li a{
+    text-decoration: none; /*gets rid of the underline to make the navbar links clickable!
+    purely a style thing */
+    color: white
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
