@@ -98,7 +98,8 @@ nav{
     height: 230px;
     position: relative;
     top: -250px;
-    background-color: black;
+    /* background-color: black; */
+    background-image: url(housepic.jpg);
     text-align: center;
     color: white;
     border-radius: 30px;
