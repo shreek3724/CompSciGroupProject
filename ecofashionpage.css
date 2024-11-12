@@ -40,6 +40,9 @@ nav{
     padding: 10px;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0px;
+ 
 }
 
 #page-title{
@@ -48,6 +51,7 @@ nav{
     background-color: #2F2504;
     color: white;
     border-radius: 30px;
+    
 }
 
 *{
@@ -57,34 +61,40 @@ nav{
 /* how to do the overlapping thing? z index isnt working */
 
 
-.Title2{
-    width: 300px;
+.title2{
+    width: 600px;
     height: 100px;
     background-color: rgb(47, 37, 4, 70%);
     text-align: center;
     color: white;
+    position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
+   justify-content: center;
+   align-items: center;
+   top: 60px;
     font-size: 25px;
     margin-left: 20px;
     border-radius: 20px;
     z-index: 2
 }
 
-.Text1{
+.div1{
+    height: 300px;
+    width: 100px;
+    position: relative;
+}
+.text1{
     width: 600px;
     height: 100px;
     background-color: rgba(234, 221, 195, .6);
     text-align: center;
     color: white;
-    position: relative;
-    top: -20px;
-    left: 50px;
-    padding: 30px;
+    position:absolute;
+   top: 150px;
     border-radius: 30px;
     z-index: 1;
-    font-size: 18px
+    font-size: 18px;
+    padding:20px;
 }
 
 .image1container{
@@ -461,6 +471,25 @@ nav{
     font-size: 19px;
 }
 
+.div-outer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    border: 4px solid blue;
+}
+
+.inner1{
+    height: 100vh;
+    width: 50vw;
+    border: 20px red solid;
+}
+
+.inner2{
+    height: 100vh;
+    width: 50vw;
+    border: 20px green solid;
+}
 .image8container{
     display: flex;
     justify-content: flex-end;
@@ -477,4 +506,5 @@ nav{
     color: white;
     border-radius: 30px;
     font-size: 18px;
+    border: solid 4px red;
 }
