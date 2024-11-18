@@ -17,7 +17,7 @@
     width: 100vw;
     display: flex;
     flex-direction: row;
-    border: 4px dotted rgb(178, 197, 51);
+   /*  border: 4px dotted rgb(178, 197, 51); */
 }
 
 .div1-left{
@@ -25,7 +25,7 @@
     width: 50vw;
     display: flex;
     flex-direction: row;
-    border: 4px solid rgb(64, 0, 255);
+   /* border: 4px solid rgb(64, 0, 255); */
 }
 
 .div2-right{
@@ -33,7 +33,7 @@
     width: 50vw;
     display: flex;
     flex-direction: row;
-    border: 4px solid rgb(0, 255, 68);
+    /* border: 4px solid rgb(0, 255, 68); */
     justify-content: flex-end;
 }
 
@@ -96,7 +96,8 @@
     position: absolute;
     top: 490px;
     left: 10px;
-    background-color: black;
+    background-image: url(compscifashionimages2.1\ .jpg);
+    background-size: cover;
     text-align: center;
     color: white;
     border-radius: 30px;
@@ -141,7 +142,8 @@
     position: absolute;
     top: 1010px;
     left: 10px;
-    background-color: black;
+    background-image: url(compscifashionimages4.1.jpg);
+    background-size: cover;
     text-align: center;
     color: white;
     border-radius: 30px;
@@ -155,7 +157,8 @@
     top: 220px;
     right: 10px;
     background-color: black;
-    background-image: url(housepic.jpg);
+    background-image: url(compscifashionimages1.1\ .jpg);
+    background-size: cover;
     text-align: center;
     color: white;
     border-radius: 30px;
@@ -182,7 +185,8 @@
     position: absolute;
     top: 735px;
     right: 10px;
-    background-color: black;
+    background-image: url(compscifashionimages3.1.jpg);
+    background-size: cover;
     text-align: center;
     color: white;
     border-radius: 30px;
@@ -236,6 +240,19 @@
     left: 0px;
     border-radius: 20px;
     z-index: 2;
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(47, 37, 4, 70%);
+}
+
+a:visited{
+    color: white ;
+    text-decoration: none;
+    background-color: rgb(47, 37, 4, 70%);
 }
 
 .image5{
@@ -244,7 +261,8 @@
     position: absolute;
     top: 1540px;
     right: 10px;
-    background-color: black;
+    background-image: url(compscifashionimages5.4.png);
+    background-size: cover;
     text-align: center;
     color: white;
     border-radius: 30px;
@@ -303,7 +321,8 @@
     position: absolute;
     top: 1980px;
     right: 20px;
-    background-color: black;
+    background-image: url(compscifashionimages6.1.png);
+    background-size: cover;
     text-align: center;
     color: white;
     border-radius: 30px;
@@ -347,7 +366,8 @@
     position: absolute;
     top: 2355px;
     right: 20px;
-    background-color: black;
+    background-image: url(compscifashionimages7.1.png);
+    background-size: cover;
     text-align: center;
     color: white;
     border-radius: 30px;
@@ -391,7 +411,8 @@
     position: absolute;
     top: 2725px;
     right: 20px;
-    background-color: black;
+    background-image: url(compscifashionimages8.1.png);
+    background-size: cover;
     text-align: center;
     color: white;
     border-radius: 30px;
