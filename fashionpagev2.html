@@ -7,12 +7,29 @@
     <link rel="stylesheet" href="fashionpagev2.css">
 </head>
 <body>
-    <div class="navbar">
+    <script src="fashionpagev2.JS"></script>
+<!--    <div class="navbar">
         <div class="navbar-heading">Eco-Living</div>
+        
         <nav>
             <ul>
                 <li><a href="projecfood.html"> Food</a></li>
                 <li><a href="groupprojectfashionpage.html"> Fashion</a></li>
+                <li><a href="construction2.html"> Construction</a></li>
+        
+                <li><input type="text" placeholder="search any product"></li>
+                <li><button>search!</button></li>
+            </ul>
+        </nav>
+    </div>-->
+
+    <!--new navbar from "report3navbar.html & "report3navbar.css-->
+    <div class="navbar">
+        <div class="navbar-heading"><a href="Ecodashboard.html">Eco-Living</a></div>
+        <nav>
+            <ul>
+                <li><a href="projecfood.html"> Food</a></li>
+                <li><a href="fashionpagev2.html"> Fashion</a></li>
                 <li><a href="construction2.html"> Construction</a></li>
                 <!--
                 <li><input type="text" placeholder="search any product"></li>
@@ -21,6 +38,7 @@
             </ul>
         </nav>
     </div>
+
     <div id="page-title">Eco-Friendly Fashion</div>
 
     <div class="complete-outer"> <!-- outer div opening -->
@@ -43,6 +61,9 @@
         <div class="company4"><a href="https://kotn.com/">Kotn</a></div>
         <div class="Text8">Kotn is another brand that combines timeless pieces with affordable prices to make eco-friendly fashion as accessible as possible. They source their raw cotton from smaller farmers in Egypt, with traceable materials and non-toxic dyes, as well as biodegradable fibers that can biodegrade back into the earth. Kotn products are built to last, and are classic designs that will last for many years to come, while being relatively accessible at their price point.</div>
         <div class="subtitle2">Feedback</div>
+        <div class="feedback-smalllabel">Please give us your feedback!</div>
+        <div class="Text9">We appreciate your thoughts, and what you think could be added or changed to improve your experience, be honest and free with your thoughts!</div>
+
     </div> <!-- left div closing  -->
 
     <div class="div2-right"> <!-- right div opening -->
@@ -55,6 +76,11 @@
         <div class="image6"></div>
         <div class="image7"></div>
         <div class="image8"></div>
+        <div class="feedback-form">
+            <textarea id="feedback" placeholder="Enter your feedback here..."></textarea>
+            <button onclick="submitFeedback()" class="submit">Submit</button>
+            <p id="message" class="message"></p>
+        </div>
 
     </div> <!-- right div closing -->
 
