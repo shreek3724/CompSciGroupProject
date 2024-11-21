@@ -1,0 +1,558 @@
+/* navbar css from report 3 navabar */
+
+.navbar{
+    background-color: #594E36;
+}
+
+.navbar-heading{
+    text-align: center;
+    font-size: 60px;
+    background-color: #2F2504;
+    border-radius:40px;
+    color: white
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(47, 37, 4, 70%);
+}
+
+a:visited{
+    color: white ;
+    text-decoration: none;
+    background-color: rgb(47, 37, 4, 70%);
+}
+
+nav ul li{
+    width: 120px;
+    height: 15px;
+    background-color: pink;
+    /* ^^ applies the design changes to the items in the nav bar list*/
+    list-style: none; /*gets rid of the dots*/
+    /*gets the items to be side by side instead of in a line: */
+    display: inline-block;
+    margin: 10px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #2F2504;
+}
+
+nav ul li a{
+    text-decoration: none; /*gets rid of the underline to make the navbar links clickable!
+    purely a style thing */
+    color: white
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* end of navbar css */
+
+#page-title{
+    text-align: center;
+    font-size: 70px;
+    background-color: #2F2504;
+    color: white;
+    border-radius: 30px;
+    
+}
+
+*{
+    background-color: #594E36;
+}
+
+.complete-outer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+   /*  border: 4px dotted rgb(178, 197, 51); */
+}
+
+.div1-left{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+   /* border: 4px solid rgb(64, 0, 255); */
+}
+
+.div2-right{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    /* border: 4px solid rgb(0, 255, 68); */
+    justify-content: flex-end;
+}
+
+.div1inner{
+    height: 500px;
+    width: 45vw;
+    border: 20px;
+    display: flex;;
+    border-color: rgb(255, 0, 166);
+    border-width: 10px;
+    border-style: solid
+}
+
+.div2inner{
+    height: 500px;
+    width: 45vw;
+    border: 20px;
+    display: flex;
+    border-color: rgb(255, 0, 170);
+    border-width: 10px;
+    border-style: solid;
+    justify-content: flex-end
+}
+
+.title2{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(47, 37, 4, 70%);
+    text-align: center;
+    color: white;
+    position: absolute;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   top: 310px;
+    font-size: 25px;
+    margin-left: 1px;
+    border-radius: 20px;
+    z-index: 2
+}
+
+.text1{
+    width: 630px;
+    height: 140px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    position:absolute;
+   top: 400px;
+   left: 40px;
+    border-radius: 30px;
+    z-index: 1;
+    font-size: 21px;
+    padding:20px;
+}
+
+.image2{
+    width: 600px;
+    height: 230px;
+    position: absolute;
+    top: 590px;
+    left: 10px;
+    background-image: url(compscifashionimages2.1\ .jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.title3{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(47, 37, 4, 70%);
+    text-align: center;
+    color: white;
+    display: flex;
+    top: 830px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 5px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.Text3{
+    width: 600px;
+    height: 130px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 910px;
+    left: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    z-index: 1;
+    font-size: 18px
+}
+
+.image4{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 1110px;
+    left: 10px;
+    background-image: url(compscifashionimages4.1.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.image1{
+    width: 600px;
+    height: 260px;
+    position: absolute;
+    top: 320px;
+    right: 10px;
+    background-color: black;
+    background-image: url(compscifashionimages1.1\ .jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.Text2{
+    width: 600px;
+    height: 140px;
+    position: absolute;
+    top: 590px;
+    right: 10px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    padding: 45px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.image3{
+    width: 600px;
+    height: 265px;
+    position: absolute;
+    top: 835px;
+    right: 10px;
+    background-image: url(compscifashionimages3.1.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.Text4{
+    width: 640px;
+    height: 310px;
+    position: absolute;
+    top: 1110px;
+    right: 10px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    padding: 45px;
+    border-radius: 30px;
+    font-size: 18.5px;
+}
+
+.subtitle{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(47, 37, 4, 70%);
+    text-align: center;
+    color: white;
+    display: flex;
+    top: 1525px;
+    left: 0px; 
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.company1{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(47, 37, 4, 70%);
+    text-align: center;
+    color: white;
+    display: flex;
+    top: 1640px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 20px;
+    left: 0px;
+    border-radius: 20px;
+    z-index: 2;
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(47, 37, 4, 70%);
+}
+
+a:visited{
+    color: white ;
+    text-decoration: none;
+    background-color: rgb(47, 37, 4, 70%);
+}
+
+.image5{
+    width: 800px;
+    height: 420px;
+    position: absolute;
+    top: 1640px;
+    right: 10px;
+    background-image: url(compscifashionimages5.4.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.Text5{
+    width: 400px;
+    height: 280px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 1720px;
+    left: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    z-index: 1;
+    font-size: 18px
+}
+
+.company2{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(47, 37, 4, 70%);
+    text-align: center;
+    color: white;
+    display: flex;
+    top: 1875px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 0px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.Text6{
+    width: 550px;
+    height: 225px;
+    position: absolute;
+    top: 2165px;
+    left: 50px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.image6{
+    width: 700px;
+    height: 355px;
+    position: absolute;
+    top: 2080px;
+    right: 20px;
+    background-image: url(compscifashionimages6.1.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.company3{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(47, 37, 4, 70%);
+    text-align: center;
+    color: white;
+    display: flex;
+    top: 2450px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 0px;
+    border-radius: 20px;
+    z-index: 2
+}
+
+.Text7{
+    width: 450px;
+    height: 195px;
+    position: absolute;
+    top: 2520px;
+    left: 50px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    padding: 45px;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+.image7{
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    top: 2455px;
+    right: 20px;
+    background-image: url(compscifashionimages7.1.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.company4{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(47, 37, 4, 70%);
+    text-align: center;
+    color: white;
+    display: flex;
+    top: 2820px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 0px;
+    border-radius: 20px;
+    z-index: 2
+}
+
+.Text8{
+    width: 430px;
+    height: 200px;
+    position: absolute;
+    top: 2900px;
+    left: 50px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    padding: 45px;
+    border-radius: 30px;
+    font-size: 19px;
+}
+
+.image8{
+    width: 740px;
+    height: 365px;
+    position: absolute;
+    top: 2825px;
+    right: 20px;
+    background-image: url(compscifashionimages8.1.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.subtitle2{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(47, 37, 4, 70%);
+    text-align: center;
+    color: white;
+    display: flex;
+    top: 3210px;
+    left: 0px; 
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.feedback-smalllabel{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(47, 37, 4, 70%);
+    text-align: center;
+    color: white;
+    display: flex;
+    top: 3320px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+    z-index: 2
+}
+
+.Text9{
+    width: 430px;
+    height: 70px;
+    position: absolute;
+    top: 3400px;
+    left: 50px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    padding: 45px;
+    border-radius: 30px;
+    font-size: 19px;
+}
+
+.feedback-form{
+    width: 750px;
+    height: 230px;
+    position: absolute;
+    top: 3330px;
+    right: 10px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+/* ask how to fix the position/formatting of the submit and feedback buttons/boxes */
+#feedback{
+    width: 750px;
+    height: 230px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(234, 221, 195, .6);
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.submit{
+    position: absolute;
+    top: 250px;
+    right: 10px;
+    background-color: white;
+    color: black;
+}
